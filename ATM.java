@@ -25,9 +25,9 @@ class OptionMenu extends Details {                           // inherit Details 
     public void getlogin() throws IOException {
         int balance = 100000;      
         int x = 1;
-                     //exception handling 
+                     //do while loop
         do {                         
-            try 
+            try                             // exception handling try and catch block
             {
                 data.put(78945, 1010);                        //correct account no. and pin respectively
                 //data.put(989947, 71976);                    //correct account no. and pin respectively
